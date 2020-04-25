@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://espositoandrea.github.io/2016/10/09/In-Vista-Della-Festa-Di-Fine-Anno.html</loc>
+<loc>https://espositoandrea.github.io/2016/10/In-Vista-Della-Festa-Di-Fine-Anno.html</loc>
 <lastmod>2016-10-09T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://espositoandrea.github.io/about/</loc>
+<loc>https://espositoandrea.github.io/404</loc>
 </url>
 <url>
 <loc>https://espositoandrea.github.io/</loc>
+</url>
+<url>
+<loc>https://espositoandrea.github.io/blog/</loc>
 </url>
 </urlset>
