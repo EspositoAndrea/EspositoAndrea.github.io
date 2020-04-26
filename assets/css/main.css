@@ -2608,16 +2608,14 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .lineno { color: #ccc; display: inline-block; padding: 0 5px; border-right: 1px solid #ccc; text-align: right; user-select: none; }
 
-.resume-section { position: relative; }
-
-.resume-section.overlay::after { background-color: black; opacity: 0.8; top: 0; left: 0; right: 0; bottom: 0; position: absolute; z-index: 0; content: ""; }
-
-.resume-section > div { z-index: 1; }
-
-.fill-viewport { min-height: 100vh; }
-
 body { position: relative; min-height: 100vh; padding-top: 50px !important; }
 
 html { scroll-behavior: smooth; }
+
+.btn-to-top { border-radius: 100%; position: fixed; bottom: 30px; right: 30px; visibility: hidden; opacity: 0; transition: background-color 0.3s, opacity 0.5s, visibility 0.5s; }
+
+.btn-to-top.show { opacity: 1; visibility: visible; }
+
+.katex-display { overflow-x: auto; }
 
 /*# sourceMappingURL=main.css.map */

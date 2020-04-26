@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     
-    <link href="/assets/favicon.ico" rel="shortcut icon">
+    <link href="https://espositoandrea.github.io/assets/favicon.ico" rel="shortcut icon">
 
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" rel="stylesheet">
@@ -20,7 +20,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <link href="https://espositoandrea.github.io/assets/css/main.css?1587840820" rel="stylesheet">
+
+    
+    
+    <link href="https://espositoandrea.github.io/assets/css/main.css?1587918186" rel="stylesheet">
+
 
     <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Andrea Esposito | Andrea Esposito’s website and blog.</title>
@@ -35,7 +39,7 @@
 <meta property="og:site_name" content="Andrea Esposito" />
 <meta name="google-site-verification" content="dhfKLjZs_wpaHCN7Xqfok6Pish0zIgaVjCMFsgEc__0" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://github.com/espositoandrea.png"},"name":"Andrea Esposito"},"url":"https://espositoandrea.github.io/404","headline":"Andrea Esposito","author":{"@type":"Person","name":"Andrea Esposito"},"description":"Andrea Esposito’s website and blog.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Andrea Esposito","url":"https://espositoandrea.github.io/404","author":{"@type":"Person","name":"Andrea Esposito"},"description":"Andrea Esposito’s website and blog.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://github.com/espositoandrea.png"},"name":"Andrea Esposito"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -77,14 +81,42 @@
     <div>
         <h1 class="display-1">404</h1>
 
-        <p><strong><p>Page not found :(</p>
+        <p><strong><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Page not found :(</p>
+</body></html>
 </strong></p>
-        <p><p>The requested page could not be found.</p>
+        <p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>The requested page could not be found.</p>
+</body></html>
 </p>
         <a class="btn btn-primary" href="https://espositoandrea.github.io/">Go to the home page</a>
     </div>
 </div>
 
+
+    <button title="Go to the top" class="btn btn-primary btn-to-top" id="go-to-top-button">
+        <span class="sr-only">Go to the top</span>
+        <span class="fas fa-chevron-up"></span>
+    </button>
+
+    <script>
+        var btn = $('#go-to-top-button');
+
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
 </body>
 
 </html>
