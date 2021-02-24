@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://espositoandrea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://espositoandrea.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T12:19:07+00:00</updated><id>https://espositoandrea.github.io/feed.xml</id><title type="html">Andrea Esposito</title><subtitle>Andrea Esposito's website and blog.</subtitle><author><name>Andrea Esposito</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://espositoandrea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://espositoandrea.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T13:00:35+00:00</updated><id>https://espositoandrea.github.io/feed.xml</id><title type="html">Andrea Esposito</title><subtitle>Andrea Esposito's website and blog.</subtitle><author><name>Andrea Esposito</name></author><entry xml:lang="en"><title type="html">Creating a Text-Based Game in 2020</title><link href="https://espositoandrea.github.io/blog/posts/2021/02/creating-a-text-based-game-in-2020.html" rel="alternate" type="text/html" title="Creating a Text-Based Game in 2020" /><published>2021-02-24T00:00:00+00:00</published><updated>2021-02-24T00:00:00+00:00</updated><id>https://espositoandrea.github.io/blog/posts/2021/02/creating-a-text-based-game-in-2020</id><content type="html" xml:base="https://espositoandrea.github.io/blog/posts/2021/02/creating-a-text-based-game-in-2020.html">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;p&gt;During my Bachelor’s studies, I rediscovered some very old games. I’m talking
+about those games like
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Colossal_Cave_Adventure&quot; target='_blank&quot;,:rel=&quot;noopener noreferrer'&gt;&lt;em&gt;“Colossal Cave Adventure”&lt;/em&gt;&lt;/a&gt;,
+where everything runs inside a terminal and uses only text.&lt;/p&gt;
+
+&lt;p&gt;Usually, this kind of game it’s based on a textual narration of a &lt;em&gt;dynamic&lt;/em&gt;
+story, in which the player decides what to do next, starting from a set of
+predefined possible actions. It’s clear that the stories were not actually
+“&lt;em&gt;dinamic&lt;/em&gt;”: the player’s actions simply modify the outcome of an event in one
+way between a set of predefined ones. The action input is given by &lt;em&gt;writing&lt;/em&gt; a
+command that the game executes.&lt;/p&gt;
+
+&lt;p&gt;My objective is simple: to recreate one of those games in a “modern” language
+and to give it a more user-friendly “modern” interface (that doesn’t force you
+to type an entire command), while still keeping the text-based user interface.
+But, we’re Computer Scientist: actually, my goal is to create it in a way that
+allows us to change the map and history of the game without modifying all the
+rest of the source code. Basically, we want to create a “&lt;em&gt;framework&lt;/em&gt;” for
+text-based videogames.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;/h2&gt;
+
+&lt;p&gt;Now, I’m not by any means a writer, let alone a game designer, but I still want
+to work on this project. The solution is simple: I’ll work on my “framework”
+and I’ll try it out by recreating an existing game. More precisely, I’ve chosen
+to recreate the game
+&lt;a href=&quot;http://www.erix.it/avventure.html&quot;&gt;“L’Astronave Condannata”&lt;/a&gt;
+(note that the website and the original game are only available in Italian) by
+&lt;a href=&quot;http://www.erix.it/index.html&quot;&gt;Enrico Colombini&lt;/a&gt;,
+who I emailed to ask permission to work on his project.&lt;/p&gt;
+
+&lt;p&gt;The original game was written in BASIC, an old programming language that dates
+back to the 60s, and was published in 1997.&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;</content><author><name>Andrea Esposito</name></author><summary type="html">During my Bachelor’s studies, I rediscovered some very old games. I’m talking about those games like “Colossal Cave Adventure”, where everything runs inside a terminal and uses only text.</summary></entry></feed>
